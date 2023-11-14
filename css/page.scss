@@ -1,0 +1,43 @@
+@import "./variables";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-background;
+    main {
+        .card {
+            max-width: 500px;
+            color: $body-background;
+            form {
+                transition: all .5s ease;
+            input, textarea {
+                border: 1px solid $body-background;
+                height: 50px;
+                overflow: hidden;
+                &::placeholder {
+                    color: $body-background;
+                }
+                &:hover {
+                    overflow: auto;
+                }
+            }
+            #submit {
+                background-color: $body-background;
+                transition: .4s ease;
+                &:hover {
+                    background-color: rgb(46, 46, 46);
+                    transform: scale(1.15);
+                }
+            }
+            }
+        }
+    }
+}
+
+ 

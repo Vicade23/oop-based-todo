@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(40, 40, 99);
+}
+body #firstSection form {
+  max-width: 700px;
+  transform: scale(1);
+  transition: 0.3s ease;
+  box-shadow: 0 0 25px -20px rgb(26, 26, 26);
+}
+body #firstSection form:hover {
+  box-shadow: 0 0 25px -10px rgb(26, 26, 26);
+  transform: scale(1.05);
+}
+body #firstSection form textarea {
+  height: 60px;
+}
+body #firstSection form textarea::-moz-placeholder {
+  color: rgb(40, 40, 99);
+}
+body #firstSection form textarea::placeholder {
+  color: rgb(40, 40, 99);
+}
+body #firstSection #theAddButton {
+  color: rgb(40, 40, 99);
+}
+body #firstSection input,
+body #firstSection textarea {
+  color: rgb(40, 40, 99);
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 0 25px -20px rgb(26, 26, 26);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body #firstSection input::-moz-placeholder, body #firstSection textarea::-moz-placeholder {
+  text-align: center;
+  color: rgb(40, 40, 99);
+  font-weight: 700;
+}
+body #firstSection input::placeholder,
+body #firstSection textarea::placeholder {
+  text-align: center;
+  color: rgb(40, 40, 99);
+  font-weight: 700;
+}
+body #firstSection input:hover,
+body #firstSection textarea:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px -5px rgb(26, 26, 26);
+}
+body #firstSection input:focus,
+body #firstSection textarea:focus {
+  transform: scale(1.05);
+  border: none;
+  box-shadow: 0 0 25px -5px rgb(26, 26, 26);
+}
+body [title] {
+  color: red;
+  background-color: black;
+}
+body li {
+  max-width: 700px;
+  transform: scale(1);
+  transition: 0.5s ease;
+  box-shadow: 0 0 25px -7px rgb(26, 26, 26);
+}
+body .listName {
+  color: rgb(40, 40, 99);
+}
+body .modal-content {
+  background-color: rgb(40, 40, 99);
+}
+body #dismiss {
+  color: rgb(40, 40, 99);
+}
+body i {
+  color: rgb(40, 40, 99);
+}
+body #userTime {
+  color: rgb(40, 40, 99);
+}
+body .seperator {
+  color: rgb(40, 40, 99);
+}
+body input {
+  font-weight: 700;
+  text-align: center;
+  transition: 0.3s ease;
+  box-shadow: 0 0 25px -20px rgb(26, 26, 26);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+body input::-moz-placeholder {
+  text-align: center;
+  color: grey;
+  font-weight: 700;
+}
+body input::placeholder {
+  text-align: center;
+  color: grey;
+  font-weight: 700;
+}
+body #update-todo-form textarea {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+body #myListedTodo {
+  max-width: 700px;
+}/*# sourceMappingURL=style.css.map */

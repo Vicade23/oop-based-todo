@@ -1,0 +1,118 @@
+@import "./variables";
+ 
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $body-background;
+    #firstSection {
+        // height: 50vh;
+        form {
+            max-width: 700px;
+            transform: scale(1);
+            transition: .3s ease;
+            box-shadow: 0 0 25px -20px $shadow-blk;
+
+            &:hover {
+                box-shadow: 0 0 25px -10px $shadow-blk;
+                transform: scale(1.05);
+            }
+            textarea {
+                height: 60px;
+                &::placeholder {
+                    color: $body-background;
+                }
+            }
+        }
+
+        #theAddButton {
+            color: $body-background;
+        }
+        input,
+        textarea {
+            color: $body-background;
+            font-weight: 700;
+            text-align: center;
+            transition: .3s ease;
+            box-shadow: 0 0 25px -20px $shadow-blk;
+            user-select: none;
+
+            &::placeholder {
+                text-align: center;
+                color: $body-background;
+                font-weight: 700;
+            }
+            &:hover {
+                transform: scale(1.05);
+                box-shadow: 0 0 25px -5px $shadow-blk;
+            }
+            &:focus {
+                transform: scale(1.05);
+                border: none;
+                box-shadow: 0 0 25px -5px $shadow-blk;
+            }
+        }
+    }
+    [title] {
+        color: red;
+        background-color: black;
+    }
+    li {
+        max-width: 700px;
+        transform: scale(1);
+        transition: .5s ease;
+        box-shadow: 0 0 25px -7px $shadow-blk;
+    }
+    .listName {
+        color: $body-background;
+    }
+    .modal-content {
+        background-color: $body-background;
+    }
+    #dismiss {
+        color: $body-background;
+    }
+    i {
+        color: $body-background;
+    }
+    #userTime {
+        color: $body-background;
+    }
+    .seperator {
+        color: $body-background;
+    }
+    
+    input {
+        // color: $body-background;
+        font-weight: 700;
+        text-align: center;
+        transition: .3s ease;
+        box-shadow: 0 0 25px -20px $shadow-blk;
+        user-select: none;
+
+        &::placeholder {
+            text-align: center;
+            color: grey;
+            font-weight: 700;
+        }
+    }
+    #update-todo-form {
+    textarea {
+        // height: 60px;
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    }
+    #myListedTodo {
+        max-width: 700px;
+    }
+    
+}

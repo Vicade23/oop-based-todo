@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/page.css">
+    <script src="/js/bootstrap.js"></script>
+</head>
+<body>
+    <header class="container-fluid border-bottom border-secondary">
+        <div class="container text-secondary h2 p-3 text-center">Todo</div>
+    </header>
+    <main class="container d-flex justify-content-center">
+        <div class="card bg-secondary mt-5 fw-bold rounded">
+            <div class="card-header">My todo</div>
+            <div class="card-body m-0">
+                <form class="row">
+                    <div class="m-0 p-0 col-md-6 d-flex justify-content-center">
+                        <input type="text" id="text" readonly class="col-10 m-1 text-center fw-bold bg-transparent p-3 rounded" placeholder="Todo">
+                    </div>
+                    <div class="m-0 p-0 col-md-6 d-flex justify-content-center">
+                        <textarea id="describe" readonly class="col-10 m-1 text-center fw-bold bg-transparent p-3 rounded" placeholder="Description"></textarea>
+                    </div>
+                    <div class="m-0 p-0 col-md-6 d-flex justify-content-center">
+                        <input type="date" id="date" readonly class="col-10 m-1 text-center fw-bold bg-transparent p-3 rounded" placeholder="Date">
+                    </div>
+                    <div class="m-0 p-0 col-md-6 d-flex justify-content-center">
+                        <input type="time" id="time" readonly class="col-10 m-1 text-center fw-bold bg-transparent p-3 rounded" placeholder="Time">
+                    </div>
+                    <div class="m-0 p-0 d-flex justify-content-center">
+                        <input type="submit" readonly role="button" id="submit" class="btn mt-3 col-md-6 text-secondary p-2 fw-bold rounded border-1">
+                    </div>
+                </form>
+            </div>
+            <!-- <div class="card-footer"></div> -->
+        </div>
+    </main>
+
+    <script src="./js/page.js" type="module"></script>
+</body>
+</html>

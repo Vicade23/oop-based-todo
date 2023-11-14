@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(40, 40, 99);
+}
+body main .card {
+  max-width: 500px;
+  color: rgb(40, 40, 99);
+}
+body main .card form {
+  transition: all 0.5s ease;
+}
+body main .card form input, body main .card form textarea {
+  border: 1px solid rgb(40, 40, 99);
+  height: 50px;
+  overflow: hidden;
+}
+body main .card form input::-moz-placeholder, body main .card form textarea::-moz-placeholder {
+  color: rgb(40, 40, 99);
+}
+body main .card form input::placeholder, body main .card form textarea::placeholder {
+  color: rgb(40, 40, 99);
+}
+body main .card form input:hover, body main .card form textarea:hover {
+  overflow: auto;
+}
+body main .card form #submit {
+  background-color: rgb(40, 40, 99);
+  transition: 0.4s ease;
+}
+body main .card form #submit:hover {
+  background-color: rgb(46, 46, 46);
+  transform: scale(1.15);
+}/*# sourceMappingURL=page.css.map */
